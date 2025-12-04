@@ -35,7 +35,7 @@
       "description": "Anthropic Claude API key for AI enrichment",
       "format": "sk-ant-...",
       "required": false,
-      "placeholder": "",
+      "placeholder": "your-anthropic-api-key",
       "module": "ai_integration",
       "note": "Optional: Only needed for AI bulk enrichment features"
     },
@@ -44,7 +44,7 @@
       "description": "OpenAI API key for AI enrichment (alternative to Anthropic)",
       "format": "sk-...",
       "required": false,
-      "placeholder": "",
+      "placeholder": "your-openai-api-key",
       "module": "ai_integration",
       "note": "Optional: Alternative to Anthropic API key for AI features"
     }

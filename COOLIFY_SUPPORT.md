@@ -48,6 +48,8 @@ services:
 
 ### Dockerfile (Placeholder)
 
+> **Note**: This Dockerfile assumes Next.js standalone output mode. To enable it, add `output: 'standalone'` to your `next.config.js`. See [Next.js documentation](https://nextjs.org/docs/app/api-reference/next-config-js/output) for details.
+
 ```dockerfile
 # PLACEHOLDER - Customize for your needs
 FROM node:18-alpine AS base
