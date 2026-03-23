@@ -9,6 +9,9 @@ export const schema = z.object({
   punchline: z.string().min(1, "Punchline is required"),
   description: z.string().min(1, "Description is required"),
   categories: z.string().min(1, "Category is required"),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  images: z.array(z.any()).optional().default([]),
+  logo_src: z.string().optional().default(""),
 });
 
 export const enrichmentSchema = z.object({
